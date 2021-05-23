@@ -1,0 +1,20 @@
+<article class="post">
+    <section class="post-head">
+        <h2><%= link_to post.title, post_path(post) %></h2>
+        <small>
+            <time><%= post.created_at.to_date.strftime("%d %B %Y") %></time>
+
+            <%= link_to t('common.edit'), edit_post_path(post) %>
+
+            <%= link_to t('common.delete'), post_path(post), method: :delete, data: { confirm: t('common.confirmation') } %>
+        </small>
+    </section>
+
+    <section class="post-summary clearfix">
+        <%= image_tag post.image.url(:thumb), class: 'img-thumnail thumb' if post.image? %>
+        <%= post.summary %>
+    </section>
+        <section class="footer-summary clearfix">
+        <%= raw post.tags.map(&:name).map{ |t| link_to t, tag_path(t), class: 'btn btn-outline-primary' }.join(' ') %>
+    </section>
+</article>

@@ -1,0 +1,13 @@
+uk:
+  activerecord:
+    models:
+      post: 'Стаття'
+    attributes:
+      post: 
+        title: 'Назва'
+        summary: 'Тема'
+        body: 'Текст'
+        all_tags: 'Теги'
+    errors:
+      messages: 
+        blank: 'має бути заповнене'
