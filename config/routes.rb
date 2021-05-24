@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
-  root 'posts#index'
-  resources :posts
-  resources :pictures, only: [:create, :destroy]
-  resources :tags, only: [:show]
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+    devise_for :users
+    root 'posts#index'
+    resources :posts, only: [:show, :index]
+    resources :tags, only: [:show]
+    resources :categories, only: [:show]
+
+    namespace :admin do
+      resources :posts, except: [:show, :index]
+      resources :categories, except: [:show]
+      resources :pictures, only: [:create, :destroy]
+    end
+  end
 end

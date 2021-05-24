@@ -30,4 +30,79 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  common:
+    errors: 'Oh np! Some errors occured :('
+    back: 'Back'
+    delete: 'Delete'
+    newPost: 'New post'
+    edit: 'Edit'
+    page: 'Page'
+    category: 'Category'
+    categories: 'Categories'
+    tags: 'Tags'
+    allPosts: 'Posts'
+  alerts:
+    success:
+      post: 
+        create: 'Post has been created'
+        edit: 'Post has been edited'
+        delete: 'Post has been deleted'
+      category: 
+        create: 'Category has been created'
+        edit: 'Category has been edited'
+        delete: 'Category has been deleted'
+    failure:
+      post: 
+        create: 'Post creation failed'
+        edit: 'Post editing failed'
+        delete: 'Post deleting failed'
+        noPosts: 'No posts'
+      category: 
+        create: 'Category creation failed'
+        edit: 'Category deleting failed'
+        delete: 'Category deleting failed'
+  will_paginate:
+    previous_label: 'Previous'
+    next_label: 'Next'
+  posts:
+    index:
+      title: 'Posts'
+  admin:
+    posts:
+      new:
+        title: 'Nes post'
+      edit:
+        title: 'Edit post'
+      form:
+        create: 'Create'
+        edit: 'Edit'
+        submit:
+          '%{action} post'
+    categories:
+      index:
+        name: 'Name'
+        parent_id: 'Parent category'
+        title: 'Categories'
+        newCategory: 'New category'
+      new:
+        title: 'New category'
+      edit:
+        title: 'Edit category'
+      form:
+        create: 'Create'
+        edit: 'Edit'
+        submit:
+          '%{action} category'
+  auth:
+    signIn: 'Sign in'
+    signUp: 'Sign up'
+    logOut: 'Log out'
+    password: 'Password'
+    passwordConfirm: 'Confirm password'
+    currentPassword: 'Current password'
+    rememberMe: "Remember me"
+    update: 'Update'
+    cancelAccount: 'Delete profile'
+    unhappy: 'Unhappy?'
+    noAccess: 'You have no access'
+

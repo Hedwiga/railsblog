@@ -5,27 +5,72 @@ uk:
     delete: 'Видалити'
     newPost: 'Нова стаття'
     edit: 'Змінити'
+    page: 'Сторінка'
+    category: 'Категорія'
+    categories: 'Категорії'
+    tags: 'Теги'
+    allPosts: 'Статті'
   alerts:
     success:
       post: 
         create: 'Стаття успішно створена'
         edit: 'Стаття успішно оновлена'
         delete: 'Статтю видалено'
+      category: 
+        create: 'Категорія успішно створена'
+        edit: 'Категорія успішно оновлена'
+        delete: 'Категорію видалено'
     failure:
       post: 
         create: 'Не вдалося створити статтю'
         edit: 'Не вдалося оновити статтю'
         delete: 'Не вдалося видалити статтю'
         noPosts: 'Статтей не знайдено'
+      category: 
+        create: 'Не вдалося створити категорію'
+        edit: 'Не вдалося оновити категорію'
+        delete: 'Не вдалося видалити категорію'
+  will_paginate:
+    previous_label: 'Назад'
+    next_label: 'Вперед'
   posts:
     index:
       title: 'Статті'
-    new:
-      title: 'Нова стаття'
-    edit:
-      title: 'Редагування статті'
-    form:
-      create: 'Створити'
-      edit: 'Змінити'
-      submit:
-        '%{action} статтю'
+  admin:
+    posts:
+      new:
+        title: 'Нова стаття'
+      edit:
+        title: 'Редагування статті'
+      form:
+        create: 'Створити'
+        edit: 'Змінити'
+        submit:
+          '%{action} статтю'
+    categories:
+      index:
+        name: 'Назва'
+        parent_id: 'Загальна категорія'
+        title: 'Категорії'
+        newCategory: 'Нова категорія'
+      new:
+        title: 'Нова категорія'
+      edit:
+        title: 'Редагування категорії'
+      form:
+        create: 'Створити'
+        edit: 'Змінити'
+        submit:
+          '%{action} категорію'
+  auth:
+    signIn: 'Вхід'
+    signUp: 'Реєстрація'
+    logOut: 'Вихід'
+    password: 'Пароль'
+    passwordConfirm: 'Підвердження паролю'
+    currentPassword: 'Поточний пароль'
+    rememberMe: "Запам'ятати мене"
+    update: 'Оновити'
+    cancelAccount: 'Видалити профіль'
+    unhappy: 'Не задоволені?'
+    noAccess: 'У вас недостатньо прав доступу'

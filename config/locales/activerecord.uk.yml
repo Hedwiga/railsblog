@@ -8,6 +8,20 @@ uk:
         summary: 'Тема'
         body: 'Текст'
         all_tags: 'Теги'
+        category_id: 'Категорія'
+        category: 'Категорія'
+      category: 
+        name: 'Назва'
+        parent_id: 'Загальна категорія'
     errors:
       messages: 
         blank: 'має бути заповнене'
+      models:
+        user:
+          attributes:
+            email:
+              taken: 'вже використано'
+        post:
+          attributes:
+            category:
+              requires: 'має бути заповнене'
