@@ -7,11 +7,11 @@ Mainly guided by this tutorial: https://www.youtube.com/watch?v=CiI7rJqRwWc&list
 Additionally used this tutorial to get deeply with RoR concepts: https://www.youtube.com/watch?v=fmyvWz5TUWg&ab_channel=freeCodeCamp.org
 
 ## Functionality list
-### ***getting started*** <br />
+### ***Getting started*** <br />
   I've separated this with initial commit: https://github.com/Hedwiga/railsblog/commit/ba5abed37719dbf087a9ee3a1e1fc54ccb0f2466
-### ***authentication*** <br />
+### ***Authentication*** <br />
 ![image](https://user-images.githubusercontent.com/60540356/119341641-b4d96c00-bc9c-11eb-890a-760669a38c1f.png) <br />
-### ***authorization + admin role*** <br />
+### ***Authorization + admin role*** <br />
 Normal users can't create/edit/delte posts and categories, when admins can <br />
 Admin credentials: <br />
 ```
@@ -21,7 +21,7 @@ password: 123123
 
 ![image](https://user-images.githubusercontent.com/60540356/119342407-b8212780-bc9d-11eb-8457-0b225e75b940.png) <br />
 ![image](https://user-images.githubusercontent.com/60540356/119342430-beaf9f00-bc9d-11eb-9083-ad7fbd4b85cb.png) <br />
-### ***categories and tags*** <br />
+### ***Categories and tags*** <br />
 Categories are tree-like. As you can see, we can filter posts using parent category (Anime) or child one (Naruto, Avatar)<br />
 ![image](https://user-images.githubusercontent.com/60540356/119343210-cface000-bc9e-11eb-82bd-31bf2643ad7a.png)<br />
 <br />
@@ -33,16 +33,16 @@ Right panel with categories and tags:<br />
 <br />
 We can also filter it by tags:<br />
 ![image](https://user-images.githubusercontent.com/60540356/119343396-0c78d700-bc9f-11eb-9e7e-b9b21b150679.png) <br />
-### ***pagination***
+### ***Pagination***
 ![image](https://user-images.githubusercontent.com/60540356/119343909-b3f60980-bc9f-11eb-9bda-494c4b0bb930.png) <br />
-### ***images***
+### ***Images***
 ![image](https://user-images.githubusercontent.com/60540356/119344296-25ce5300-bca0-11eb-9773-8d4743526175.png) <br />
-### ***comments*** 
+### ***Comments*** 
 Used DISQUS <br />
 ![image](https://user-images.githubusercontent.com/60540356/119344499-6a59ee80-bca0-11eb-841a-80f5f33bf9d7.png)  <br />
 ### ***WYISIMYG text editor*** 
 ![image](https://user-images.githubusercontent.com/60540356/119344645-94131580-bca0-11eb-9597-98f5fc955b9b.png) <br />
-### ***localization*** 
+### ***Localization*** 
 User can switch between Ukrainian and English at the top right corner <br />
 Ukrainian: <br />
 ![image](https://user-images.githubusercontent.com/60540356/119344795-be64d300-bca0-11eb-9fc1-362e2a16792b.png) <br />
