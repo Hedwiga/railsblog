@@ -4,7 +4,7 @@ Simple Ruby on Rails blog for the university project
 
 ## References
 Mainly guided by this tutorial: https://www.youtube.com/watch?v=CiI7rJqRwWc&list=PL0ZEIs68t9d1qh6Z92-E45R8YBPvgy4wk&ab_channel=devsimpledevsimple <br />
-Additionally used this tutorial to get deeply with RoR concepts: https://www.youtube.com/watch?v=fmyvWz5TUWg&ab_channel=freeCodeCamp.org
+Additionally used the following tutorial to get deeply with RoR concepts: https://www.youtube.com/watch?v=fmyvWz5TUWg&ab_channel=freeCodeCamp.org
 
 ## Functionality list
 ### ***Getting started*** <br />
