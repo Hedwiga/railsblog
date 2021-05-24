@@ -21,6 +21,9 @@ password: 123123
 
 ![image](https://user-images.githubusercontent.com/60540356/119342407-b8212780-bc9d-11eb-8457-0b225e75b940.png) <br />
 ![image](https://user-images.githubusercontent.com/60540356/119342430-beaf9f00-bc9d-11eb-9083-ad7fbd4b85cb.png) <br />
+### ***Error handling*** <br />
+If some required fields are not filled, then flash messages are shown <br />
+![image](https://user-images.githubusercontent.com/60540356/119345713-f0c30000-bca1-11eb-9799-9527dabba8d7.png) <br />
 ### ***Categories and tags*** <br />
 Categories are tree-like. As you can see, we can filter posts using parent category (Anime) or child one (Naruto, Avatar)<br />
 ![image](https://user-images.githubusercontent.com/60540356/119343210-cface000-bc9e-11eb-82bd-31bf2643ad7a.png)<br />
