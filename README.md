@@ -53,8 +53,8 @@ App is web-hosted using heroku:
 ```
 https://simplexblog.herokuapp.com/
 ```
- <br />
-![image](https://user-images.githubusercontent.com/60540356/119345141-29160e80-bca1-11eb-8642-d81e27abe884.png) <br />
+![image](https://user-images.githubusercontent.com/60540356/119345317-64b0d880-bca1-11eb-9ce1-249eb18d354f.png)
+
 
 
 
