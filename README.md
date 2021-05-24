@@ -1,4 +1,4 @@
-# README
+# Simplex blog README
 
 Simple Ruby on Rails blog for the university project
 
