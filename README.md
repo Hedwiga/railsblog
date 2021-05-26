@@ -1,6 +1,9 @@
 # Simplex blog README
 
 Simple Ruby on Rails blog for the university project
+```
+https://simplexblog.herokuapp.com/
+```
 
 ## References
 Mainly guided by this tutorial: https://www.youtube.com/watch?v=CiI7rJqRwWc&list=PL0ZEIs68t9d1qh6Z92-E45R8YBPvgy4wk&ab_channel=devsimpledevsimple <br />
